@@ -52,8 +52,8 @@ path.url("/abs/"); // http://example.com/base/
 path.url("{{abs}}"); // http://example.com/base/
 path.url("{{abs}}{{lang}}"); // http://example.com/base/en
 path.url("{{absLang}}"); // http://example.com/base/
-path.url("/cdn/image.jpg"); //http://cdn.com/image.jpg
-path.url("http://www.google.com/image.jpg"); //http://www.google.com/image.jpg
+path.url("/cdn/image.jpg"); // http://cdn.com/image.jpg
+path.url("http://www.google.com/image.jpg"); // http://www.google.com/image.jpg
 path.url("{{inc}}/script.js"); // include/script.js
 ```
 
@@ -102,7 +102,7 @@ var pathConfig = {
 	"country": "great-britain",
 	"tags": {
 		"lang": "english",
-		"region": "{{country}}" //references pathConfig.country
+		"region": "{{country}}" // references pathConfig.country
 	}
 };
 
