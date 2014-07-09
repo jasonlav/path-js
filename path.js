@@ -1,3 +1,10 @@
+/*!
+ * Path.js - Simple Javascript path management library
+ * (c) 2014 Jason Lavorante
+ * MIT Licensed.
+ *
+ * https://github.com/jasonlav/path-js
+ */
 function Path(config) {
 	this.config = config;
 	this.config.tags = Tags.get(this.config.tags, config);
